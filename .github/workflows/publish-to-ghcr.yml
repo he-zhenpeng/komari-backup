@@ -35,6 +35,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/yutian81/komari-backup:latest
+          tags: ghcr.io/he-zhenpeng/komari:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
